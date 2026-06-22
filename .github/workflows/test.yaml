@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: [linux]
+    runs-on: ubuntu-latest
     steps:
       - name: sample run
         run: echo '### Hello World' >> $GITHUB_STEP_SUMMARY
